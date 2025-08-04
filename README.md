@@ -8,7 +8,7 @@ versi **28 Juli 2025**
 Venture Capital (VC) adalah bentuk pendanaan yang diberikan oleh investor kepada Startup yang masih dalam tahap awal namun dianggap memiliki potensi pertumbuhan yang besar di masa depan. Sebagai imbalan atas risiko yang mereka ambil, VC biasanya memperoleh kepemilikan sebagian saham dari perusahaan yang didanai. Startup yang menerima dana dari VC akan menjadi bagian dari portfolio VC tersebut, yaitu kumpulan perusahaan yang telah mereka funding. Karena investasi di startup memiliki risiko tinggi—banyak yang gagal meskipun beberapa bisa sangat sukses—VC perlu menyusun portofolionya dengan strategi yang cermat. Salah satu strategi utama yang digunakan adalah sector diversification, yaitu menyebarkan investasi ke berbagai sektor industri seperti teknologi, kesehatan, logistik, pendidikan, dan lainnya. Tujuannya adalah untuk mengurangi risiko kerugian besar jika satu sektor mengalami penurunan. Kalo nonformal dikit ide ini muncul ketika gua memikirkan aplikasi DP dan FFT, sambil nonton Succession. Eh taunya ada episode yang nyinggung Startup dan Venture Capital 🤯.
 
 <div align=center>
-<img src="img/Parameter.png">
+<img src="img/Logo.png">
 
 <br>
   <b>Fig 1.</b> VentCap Desktop App untuk Waystar Royco
