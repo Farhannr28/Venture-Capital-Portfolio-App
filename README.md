@@ -152,7 +152,7 @@ Berikut merupakan detail spesifikasi yang wajib diimplementasikan:
         - Tangggal yang digunakan saat Pembuatan Construction
         - Distribusi Peluang Gain pada Portfolio
         - Ekspektasi Gain
-        - Multiplier yang berupa $Ekspektasi \: Gain / Total \: Investment$
+        - Multiplier yang berupa $EkspektasiGain / TotalInvestment$
         - Startup yang harus Diinvestasikan
         <div align=center>
         <img src="img/Parameter.png">
@@ -200,10 +200,11 @@ Berikut merupakan detail spesifikasi yang wajib diimplementasikan:
 > Do Not Attempt this Bonus unless you are dedicated to join IRK Laboratory
 1. <b>Linear Recurrence Prediction (700 Poin)</b> 
     Seperti yang dijelaskan sebelumnya, setiap Startup memiliki Gross Proceed Scenario selama 30-90 hari terakhir. Data ini berbentuk suatu barisan bilangan yang (secara kasar) memenuhi Linear Recurrence dengan orde tidak lebih dari 10. Atau secara formal:
-    $$x_n = c_1 x_{n-1} + c_2 x_{n-2} + \cdots + c_K x_{n-K}, \:\: k \leq 10$$
-    VC tidak hanya melihat keadaan trend startup hari ini saja, namun harus bisa memprediksi sampai jauh di masa depan. Buatlah modul untuk melanjutkan barisan Linear Recurrence sampai nilai $n$ yang sangat besar. Akibatnya, kita akan memiliki Gross Proceed Scenario berhari-hari dari sekarang. Terdapat 2 langkah dalam implementasi modul berikut yaitu:
+    $$x_n = c_1 x_{n-1} + c_2 x_{n-2} + \cdots + c_K x_{n-K}, \quad k \leq 10$$
+   
+   VC tidak hanya melihat keadaan trend startup hari ini saja, namun harus bisa memprediksi sampai jauh di masa depan. Buatlah modul untuk melanjutkan barisan Linear Recurrence sampai nilai $n$ yang sangat besar. Akibatnya, kita akan memiliki Gross Proceed Scenario berhari-hari dari sekarang. Terdapat 2 langkah dalam implementasi modul berikut yaitu:
     - <b>Parameter Estimation:</b> Estimasi koefisien yang paling memenuhi barisan. Tentunya kalian memerlukan cara untuk <b>menentukan orde</b> yang paling sesuai terlebih dahulu
-    - <b>Prediction:</b> Inferensikan nilai selanjutnya pada barisan sampai suku ke-$n$. VC yang visioner bisa saja meminta prediksi hingga tahun 4763 (1 juta hari dari sekarang 😱). Oleh karena itu, untuk mencapai nilai $n$ yang sangat tinggi kalian harus melakukan optimasi. Tahap ini harus dapat dilakukan dalam waktu $O(log \: n)$.
+    - <b>Prediction:</b> Inferensikan nilai selanjutnya pada barisan sampai suku ke-n. VC yang visioner bisa saja meminta prediksi hingga tahun 4763 (1 juta hari dari sekarang 😱). Oleh karena itu, untuk mencapai nilai $n$ yang sangat tinggi kalian harus melakukan optimasi. Tahap ini harus dapat dilakukan dalam waktu $O(log n)$.
     Ajaibnya, kedua tahap ini dapat dilakukan sepenuhnya menggunakan <b>Matrix</b> (Tanpa pendekatan AI/ML sama sekali). Implementasikanlah modul ini, lalu aplikasikan dalam 2 fitur berikut:
         - Saat menampilkan line chart Gross Proceed Scenario Trend, tampilkan pula Trend sampai 90 hari dari sekarang.
         - Kalendar pada Portfolio Construction dapat menerima tanggal setelah hari ini, sehingga algoritma dapat dijalankan untuk kasus jauh di masa depan.
