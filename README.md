@@ -9,9 +9,11 @@ Venture Capital (VC) adalah bentuk pendanaan yang diberikan oleh investor kepada
 
 <div align=center>
 <img src="img/Parameter.png">
+
 <br>
   <b>Fig 1.</b> VentCap Desktop App untuk Waystar Royco
 <br>
+
 </div>
 
 > [!WARNING]
@@ -125,16 +127,20 @@ Berikut merupakan detail spesifikasi yang wajib diimplementasikan:
     - Setiap Startup sudah terorganisasi can "color coded" terhadap sektor. 
     <div align=center>
     <img src="img/Deal Flow.png">
+
     <br>
-    <b>Fig 1.</b> Contoh UI untuk halaman Deal Flow
+    <b>Fig 2.</b> Contoh UI untuk halaman Deal Flow
     <br>
+
     </div>
     <div align=center>
     <img src="img/Detail.png">
     <img src="img/Detail-Trend.png">
+
     <br>
-    <b>Fig 1.</b> Apabila suatu card di klik, munculkan detail Startup seperti berikut
+    <b>Fig 3.</b> Apabila suatu card di klik, munculkan detail Startup seperti berikut
     <br>
+
     </div>
 9. Halaman Portfolio Construction
     - Halaman ini digunakan untuk menjalankan algoritma Portfolio Construction
@@ -150,20 +156,26 @@ Berikut merupakan detail spesifikasi yang wajib diimplementasikan:
         - Startup yang harus Diinvestasikan
         <div align=center>
         <img src="img/Parameter.png">
+
         <br>
-        <b>Fig 1.</b> Contoh Parameter untuk Portfolio Construction
+        <b>Fig 4.</b> Contoh Parameter untuk Portfolio Construction
         <br>
+
         <img src="img/Selection.png">
+
         <br>
-        <b>Fig 1.</b> VC dapat memilih Startup mana saja yang dikonsiderasikan
+        <b>Fig 5.</b> VC dapat memilih Startup mana saja yang dikonsiderasikan
         <br>
+
         </div>
         <div align=center>
         <img src="img/Result.png">
         <img src="img/Result-extra.png">
+
         <br>
-        <b>Fig 1.</b> Tampilkan hasil Portfolio COnstruction
+        <b>Fig 6.</b> Tampilkan hasil Portfolio COnstruction
         <br>
+
         </div>
 10. README
     Berikut adalah hal-hal yang perlu disampaikan pada README:
