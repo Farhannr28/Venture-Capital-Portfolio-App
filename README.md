@@ -99,8 +99,9 @@ Berikut merupakan detail spesifikasi yang wajib diimplementasikan:
     - Basis data setidaknya <b>harus memiliki</b> collection `startups` dengan documents seperti berikut:
         ```
         {
-            "name": String,  
-            "description": String,  
+            "name": String,
+            "description": String,
+            "sector": String
             "fundingStage": Enumerate[SEED, SERIES A, SERIES B, SERIES C, SERIES D+],  
             "ticketSize": Integer,  
             "location": "String",  
